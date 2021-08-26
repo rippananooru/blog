@@ -3,16 +3,8 @@ layout: home
 permalink: /
 title: blog.ノール.me
 ---
-# Welcome to {{ page.title }}
----
+# Welcome to my blog
 
-# [Finance Blog](/blog-finance)
+Currently there are 3 topics that I'm interested to write.
 
-# [Motorcycle Blog](/blog-motor)
-
-# [Technology Blog](/blog-tech)
-
----
-<br>
-# My main site
-# [nooru.me](https://nooru.me)
+Here are the latest post you can begin with.
