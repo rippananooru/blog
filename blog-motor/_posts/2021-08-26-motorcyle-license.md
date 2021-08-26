@@ -2,6 +2,7 @@
 layout: home
 category: motor
 title: Get Legal
+permalink: /motor/license
 ---
 Plan to get your first big bikes?
 
