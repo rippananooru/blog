@@ -27,16 +27,13 @@ url: "https://blog.nooru.me" # the base hostname & protocol for your site, e.g. 
 twitter_username: rippananooru
 facebook_username: rippananooru
 instagram_username: rippananooru
-youtube_username: kumakumo414
+#youtube_username: kumakumo414
 # linkedin_username: rippananooru
 
 # Build settings
-#theme: minima
-# plugins:
-#   - jekyll-feed
-#   - jekyll-seo-tag
-#   - jekyll-compress-images
-#   - jekyll-sitemap
+theme: minima
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -57,20 +54,7 @@ youtube_username: kumakumo414
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-
 #branding add
 author: Mohd Noor
 title_logo: /img/title_logo.jpg
 favicon: /img/favicon.ico
-
-# from theme
-# Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
-# from theme end
