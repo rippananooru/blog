@@ -21,22 +21,22 @@
 title: blog.ノール.me
 #email: email@nooru.me
 description: >- # this means to ignore newlines until "baseurl:"
-  The only blog.ノール.me
+  Have questions? I have answers.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.nooru.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rippananooru
 facebook_username: rippananooru
 instagram_username: rippananooru
 youtube_username: kumakumo414
-linkedin_username: rippananooru
+# linkedin_username: rippananooru
 
 # Build settings
 #theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-compress-images
-  - jekyll-sitemap
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jekyll-compress-images
+#   - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -61,5 +61,16 @@ plugins:
 
 #branding add
 author: Mohd Noor
-title_logo: /assets/img/title_logo.jpg
-favicon: /assets/img/favicon.ico
+title_logo: /img/title_logo.jpg
+favicon: /img/favicon.ico
+
+# from theme
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+# from theme end
