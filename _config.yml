@@ -31,7 +31,8 @@ instagram_username: rippananooru
 # linkedin_username: rippananooru
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
