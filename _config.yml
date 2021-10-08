@@ -59,3 +59,16 @@ plugins:
 author: Mohd Noor
 title_logo: /img/title_logo.jpg
 favicon: /img/favicon.ico
+
+# FROM THEME
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   G-WR074PE7N6 # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
